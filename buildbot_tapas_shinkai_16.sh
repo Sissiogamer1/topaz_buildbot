@@ -1,6 +1,5 @@
 #!/bin/bash
 BUILD_TYPE=$1
-rm -rf out/
 
 # Clone latest topaz_manifest
 echo "Cloning latest topaz_manifest"
