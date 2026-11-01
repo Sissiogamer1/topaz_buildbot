@@ -41,7 +41,7 @@ echo "Hardware Cleanup"
         echo "Replacing LunarisDolby with KoharuDolby" 
         cd hardware/dolby
         rm -rf LunarisDolby
-        git clone https://github.com/Sissiogamer1/android_packages_apps_Dolby -b main LunarisDolby
+        git clone https://github.com/Sissiogamer1/android_packages_apps_KoharuDolby -b main LunarisDolby
         cd - > /dev/null
         echo "KoharuDolby cloned" 
     else
