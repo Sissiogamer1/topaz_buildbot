@@ -37,7 +37,7 @@ echo "Hardware Cleanup"
     else
         echo "Snippet directory not found, skipping XML edits."
     fi
-    if [ -d "hardware/dolby"]; then
+    if [ -d "hardware/dolby" ]; then
         echo "Replacing LunarisDolby with KoharuDolby" 
         cd hardware/dolby
         rm -rf LunarisDolby
