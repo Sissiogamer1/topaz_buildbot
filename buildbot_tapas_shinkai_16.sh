@@ -39,6 +39,6 @@ echo "Hardware Cleanup"
     fi
 
 echo "Starting build"
-build/env*
+source build/env*
 breakfast rodin $BUILD_TYPE
 mka shinkai -j$(nproc --all)
