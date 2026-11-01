@@ -40,5 +40,5 @@ echo "Hardware Cleanup"
 
 echo "Starting build"
 source build/env*
-breakfast rodin $BUILD_TYPE
+breakfast tapas $BUILD_TYPE
 mka shinkai -j$(nproc --all)
