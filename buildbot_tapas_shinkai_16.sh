@@ -4,7 +4,7 @@ BUILD_TYPE=$1
 # Clone latest topaz_manifest
 echo "Cloning latest topaz_manifest"
 rm -rf .repo/local_manifests/
-git clone https://github.com/Rexons-AOSP-Projects/topaz_manifest -b main .repo/local_manifests
+git clone https://github.com/Sissiogamer1/topaz_manifest -b main .repo/local_manifests
 
 echo "Running repo sync"
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
