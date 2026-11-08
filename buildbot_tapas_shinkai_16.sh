@@ -36,16 +36,6 @@ echo "Hardware Cleanup"
     else
         echo "Snippet directory not found, skipping XML edits."
     fi
-    if [ -d "hardware/dolby" ]; then
-        echo "Replacing LunarisDolby with KoharuDolby" 
-        cd hardware/dolby
-        rm -rf LunarisDolby
-        git clone https://github.com/Sissiogamer1/android_packages_apps_KoharuDolby -b main LunarisDolby
-        cd - > /dev/null
-        echo "KoharuDolby cloned" 
-    else
-        echo "hardware/dolby not found, skipping KoharuDolby cloning" 
-    fi
     
 echo "Starting build"
 source build/env*
